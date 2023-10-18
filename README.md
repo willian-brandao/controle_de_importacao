@@ -9,5 +9,5 @@ Obs: OS valores foram criados a critério de estudo e não condizem com a realid
     1.1 - A função real_para_dolar implementa a conversão de um valor em real e utilizando a função buscar_dados() para buscar o valor da cotação do dolar atual e converter de acordo com o valor fornecido.
 
 2 - Atribuição de tributo 
-    2.1 - A função valor_de_tributo vai adicionar o tributo referente ao preço do produto escolhido, de acordo com o estado em que o comprador estiver, para isso foi criado um dicionário com os valores por cada estado. 
-
+    2.1 - A função valor_de_tributo_estadual vai adicionar o tributo referente ao preço do produto escolhido, de acordo com o estado em que o comprador estiver, para isso foi criado um dicionário com os valores por cada estado. 
+    2.2 - A função valor_tributo_importacao adiciona ao valor do produto uma taxa de acordo com o preço do produto.
