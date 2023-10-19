@@ -38,21 +38,4 @@ def valor_final_consumidor(valor, nome_estado):
     tributo_final = valor + tributo_icms+ taxa_importacao
     return tributo_final
 
-'''
-def valor_de_tributo_estadual(estado):    
-    tributo = 0
-    for nomes_dos_estados, valor_de_icms in estados.items():
-        if nomes_dos_estados == estado:
-            tributo = float((valor_de_icms * valor) / 100 )  
-            return tributo
 
-
-def valor_final_consumidor(valor, nome_estado):
-    
-    taxa_importacao = valor_tributo_importacao(valor)
-    taxa_estadual = valor_de_tributo_estadual(nome_estado)
-    
-    tributo_final = 0 
-    tributo_final = valor + taxa_estadual + taxa_importacao
-    return tributo_final
-'''
